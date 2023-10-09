@@ -135,6 +135,7 @@ def calcRMSTEC(coordLat,coordLon,filename):
 	for item in range(int(NumberOfMaps)):
 		newa[inc,:,:] = a[item,:,:]
 		inc = inc + 2
+#	newa = a
 
 	# Performing the interpolation to create 12 addional maps 
 	# from the 13 RMS TEC maps available
