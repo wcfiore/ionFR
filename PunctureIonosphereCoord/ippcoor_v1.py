@@ -32,7 +32,8 @@
 #			from IPP
 #-------------------------------------------------------------------
 
-from scipy import *
+from scipy import pi
+import math
 
 def PuncIonOffset(LatObs,AzSou,ZeSou,AltIon):
 
